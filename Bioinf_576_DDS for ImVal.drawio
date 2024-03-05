@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T16:15:35.241Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="2fG5E-HvkUMZPC8o9FAx" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T17:32:07.661Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="PsrVSc55dQ_VowMmvJ1D" version="24.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="804" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="805" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -56,8 +56,8 @@
         <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-2" value="Module 2" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="510" y="850" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-3" value="PTPRC score calculated as a percent&lt;br&gt;of cells expressing ptprc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-2" vertex="1">
-          <mxGeometry x="25" y="23" width="220" height="40" as="geometry" />
+        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-3" value="PTPRC score calculated as a percent&lt;br&gt;of cells expressing ptprc&lt;div&gt;Implement user identified threshold,&amp;nbsp;&lt;/div&gt;&lt;div&gt;use scanty filter_cells for ease&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-2" vertex="1">
+          <mxGeometry x="25" y="20" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-4" value="Module 3" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="189" y="1010" width="450" height="100" as="geometry" />
