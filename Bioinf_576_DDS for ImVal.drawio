@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T17:32:07.661Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="PsrVSc55dQ_VowMmvJ1D" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T17:36:35.983Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="3zErDXfr6-cjGBFqhV38" version="24.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="805" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -50,32 +50,38 @@
         <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-0" value="Module 1" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="110" y="850" width="380" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-1" value="Scanty preprocessing , required for ImVal immune scores to&lt;br&gt;&amp;nbsp;be accurately calculated" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-0" vertex="1">
+        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-1" value="Scanpy preprocessing , required for ImVal immune scores to&lt;br&gt;&amp;nbsp;be accurately calculated" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-0" vertex="1">
           <mxGeometry x="10" y="35" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-2" value="Module 2" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="510" y="850" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-3" value="PTPRC score calculated as a percent&lt;br&gt;of cells expressing ptprc&lt;div&gt;Implement user identified threshold,&amp;nbsp;&lt;/div&gt;&lt;div&gt;use scanty filter_cells for ease&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-2" vertex="1">
+        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-3" value="PTPRC score calculated as a percent&lt;br&gt;of cells expressing ptprc&lt;div&gt;Implement user identified threshold,&amp;nbsp;&lt;/div&gt;&lt;div&gt;use scanpy filter_cells for ease&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-2" vertex="1">
           <mxGeometry x="25" y="20" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-4" value="Module 3" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="189" y="1010" width="450" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-5" value="Calculate myeloid and lymphoid score &lt;br&gt;by scoring canonical myeloid and lymphoid markers&lt;br&gt;based on percent of cells that express all common markers for the lineages&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-4" vertex="1">
-          <mxGeometry x="10" y="30" width="430" height="60" as="geometry" />
+        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-5" value="Calculate myeloid and lymphoid score&amp;nbsp;&lt;div&gt;add user identified thresholds&lt;br&gt;by scoring canonical myeloid and lymphoid markers&lt;br&gt;based on percent of cells that express all common markers for the lineages&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-4" vertex="1">
+          <mxGeometry x="10" y="25" width="430" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-6" value="Module 4" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="149" y="1160" width="530" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-7" value="calculate myeloid lineages score,&lt;br&gt;based on lineage markers for each cell type ie macrophage vs dendritic cell&lt;br&gt;calculate lymphoid score for B and T cells based on percent of cells expression" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-6" vertex="1">
-          <mxGeometry x="45" y="40" width="440" height="60" as="geometry" />
+        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-7" value="calculate percentage of myeloid cells in samples,&lt;br&gt;based on lineage markers for each cell type ie macrophage vs dendritic cell&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-6" vertex="1">
+          <mxGeometry x="55" y="40" width="420" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-8" value="Module 5" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="190" y="1340" width="450" height="90" as="geometry" />
+        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-8" value="Module 6" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="199" y="1490" width="450" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-9" value="Update results file with scores for each module,&amp;nbsp;&lt;br&gt;if score is 0 then add message as to why&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-8" vertex="1">
           <mxGeometry x="84" y="35" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ktD13bNwA3o_G1vweS_7-0" value="Module 5" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="159" y="1330" width="530" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ktD13bNwA3o_G1vweS_7-1" value="&lt;br&gt;calculate percentage of lymphoid cells in samples&lt;div&gt;&amp;nbsp;based on lineage markers for each cell type ie B and T cells&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ktD13bNwA3o_G1vweS_7-0">
+          <mxGeometry x="95" y="40" width="340" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
