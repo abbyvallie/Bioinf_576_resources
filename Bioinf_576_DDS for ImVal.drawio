@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T15:14:24.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="FMDr75wqEjd8Cm30M-yC" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T15:15:11.172Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="U8lLxYJuJVX1zhYhg7Tl" version="24.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="838" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -56,8 +56,8 @@
         <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-2" value="Module 2" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="510" y="850" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-3" value="PTPRC score calculated as a percent&lt;br&gt;of cells expressing ptprc&lt;div&gt;Implement user identified threshold,&amp;nbsp;&lt;/div&gt;&lt;div&gt;use scanpy filter_cells for ease&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-2" vertex="1">
-          <mxGeometry x="25" y="20" width="220" height="70" as="geometry" />
+        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-3" value="PTPRC is looked for through the dataset&lt;div&gt;threshold is zero&lt;/div&gt;&lt;div&gt;results file is made and message given&amp;nbsp;&lt;/div&gt;&lt;div&gt;if ptprc is expressed or not&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-2" vertex="1">
+          <mxGeometry x="15" y="20" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-6" value="Module 5" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="1310" width="530" height="130" as="geometry" />
