@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T17:36:35.983Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="3zErDXfr6-cjGBFqhV38" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T15:14:24.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="FMDr75wqEjd8Cm30M-yC" version="24.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="805" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="838" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -50,8 +50,8 @@
         <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-0" value="Module 1" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="110" y="850" width="380" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-1" value="Scanpy preprocessing , required for ImVal immune scores to&lt;br&gt;&amp;nbsp;be accurately calculated" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-0" vertex="1">
-          <mxGeometry x="10" y="35" width="340" height="40" as="geometry" />
+        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-1" value="Scanpy preprocessing , required for ImVal immune scores to&lt;br&gt;&amp;nbsp;be accurately calculated&lt;div&gt;Module 1 created by pull request from MMIRE&lt;/div&gt;&lt;div&gt;Preprocessing does very short QC based off of scanpy tutorial&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-0" vertex="1">
+          <mxGeometry x="5" y="20" width="350" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-2" value="Module 2" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="510" y="850" width="270" height="90" as="geometry" />
@@ -59,29 +59,29 @@
         <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-3" value="PTPRC score calculated as a percent&lt;br&gt;of cells expressing ptprc&lt;div&gt;Implement user identified threshold,&amp;nbsp;&lt;/div&gt;&lt;div&gt;use scanpy filter_cells for ease&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-2" vertex="1">
           <mxGeometry x="25" y="20" width="220" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-4" value="Module 3" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="189" y="1010" width="450" height="100" as="geometry" />
+        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-6" value="Module 5" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="170" y="1310" width="530" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-5" value="Calculate myeloid and lymphoid score&amp;nbsp;&lt;div&gt;add user identified thresholds&lt;br&gt;by scoring canonical myeloid and lymphoid markers&lt;br&gt;based on percent of cells that express all common markers for the lineages&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-4" vertex="1">
-          <mxGeometry x="10" y="25" width="430" height="70" as="geometry" />
+        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-7" value="&lt;div&gt;Preset myeloid armers for each myeloid cell type are input&amp;nbsp;&lt;/div&gt;&lt;div&gt;cell has multiple gene markers&lt;/div&gt;&lt;div&gt;a message tells you whether those cells are present or not in the data set&lt;/div&gt;&lt;div&gt;the results file is then updated&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-6" vertex="1">
+          <mxGeometry x="60" y="35" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-6" value="Module 4" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="149" y="1160" width="530" height="130" as="geometry" />
+        <mxCell id="ktD13bNwA3o_G1vweS_7-0" value="Module 6" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="159" y="1470" width="530" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-7" value="calculate percentage of myeloid cells in samples,&lt;br&gt;based on lineage markers for each cell type ie macrophage vs dendritic cell&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-6" vertex="1">
-          <mxGeometry x="55" y="40" width="420" height="60" as="geometry" />
+        <mxCell id="ktD13bNwA3o_G1vweS_7-1" value="&lt;div&gt;Preset myeloid armers for each lymphoid cell type are input&amp;nbsp;&lt;/div&gt;&lt;div&gt;cell has multiple gene markers&lt;/div&gt;&lt;div&gt;a message tells you whether those cells are present or not in the data set&lt;/div&gt;&lt;div&gt;the results file is then updated&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ktD13bNwA3o_G1vweS_7-0" vertex="1">
+          <mxGeometry x="60" y="35" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-8" value="Module 6" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="199" y="1490" width="450" height="90" as="geometry" />
+        <mxCell id="XMkTfAyYmPfX_VzBCxZC-0" value="Module 3" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="199" y="1020" width="450" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-9" value="Update results file with scores for each module,&amp;nbsp;&lt;br&gt;if score is 0 then add message as to why&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-8" vertex="1">
-          <mxGeometry x="84" y="35" width="280" height="40" as="geometry" />
+        <mxCell id="XMkTfAyYmPfX_VzBCxZC-1" value="Determine if &amp;nbsp;myeloid cells are present&amp;nbsp;&lt;div&gt;preset threshold of 0 for common myeloid genes&lt;br&gt;gives message of which genes are expressed or not expressed&amp;nbsp;&lt;/div&gt;&lt;div&gt;Updates result file with message&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="XMkTfAyYmPfX_VzBCxZC-0">
+          <mxGeometry x="45" y="25" width="360" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ktD13bNwA3o_G1vweS_7-0" value="Module 5" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="159" y="1330" width="530" height="130" as="geometry" />
+        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-4" value="Module 4" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="209" y="1200" width="450" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ktD13bNwA3o_G1vweS_7-1" value="&lt;br&gt;calculate percentage of lymphoid cells in samples&lt;div&gt;&amp;nbsp;based on lineage markers for each cell type ie B and T cells&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ktD13bNwA3o_G1vweS_7-0">
-          <mxGeometry x="95" y="40" width="340" height="60" as="geometry" />
+        <mxCell id="ZBzTgdzAlaYD0r8RpFqJ-5" value="Determine if &amp;nbsp;Lymphoid cells are present&amp;nbsp;&lt;div&gt;preset threshold of 0 for common myeloid genes&lt;br&gt;gives message of which genes are expressed or not expressed&lt;/div&gt;&lt;div&gt;Updates results file with message&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ZBzTgdzAlaYD0r8RpFqJ-4" vertex="1">
+          <mxGeometry x="46" y="25" width="360" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
